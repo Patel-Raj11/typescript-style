@@ -31,7 +31,7 @@ module.exports = {
 
     // disallow use of undefined when initializing variables
     // https://eslint.org/docs/rules/no-undef-init
-    'no-undef-init': 'error',
+    'no-undef-init': 'off',
 
     // disallow declaration of variables that are not used in the code.
     // This is disabled & supplemented by `@typescript-eslint`.
